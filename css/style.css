@@ -1,0 +1,152 @@
+body{
+margin:0px;
+font-size: 140%;
+}
+
+fieldset{
+width:97%;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+border:1px #CCCCCC solid;
+background-image:linear-gradient(white, #eee);
+}
+
+legend{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+font-weight:bold;
+color:#0066CC;
+}
+
+#header {
+width:100%; 
+background-image:linear-gradient(#0063A6, #0066CC);
+overflow:hidden;
+height:15%; 
+float:left;
+}
+
+#titre{
+width:600px; 
+margin:10px;
+color:#FFFFFF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:30px;
+font-weight:bold;
+}
+/* menu principal */
+#menu{
+width:15%; 
+float:left;
+height:85%;
+margin:0px;
+background-image:url(../images/body-bg.jpg);
+
+}
+
+#menu ul{
+margin:0px;
+margin-left:-40px;
+width:100%;
+border:1px #999999;
+}
+
+#menu ul li{
+list-style:none;
+background-color:#333;
+border-bottom:1px solid #222;
+border-top:1px solid #666;
+height:30px;
+text-align:center;
+}
+
+#menu ul li:hover{
+background-color:#666;
+}
+
+#menu ul li a{
+color:#FFFFFF;
+line-height:30px;
+font-size:80%;
+text-decoration:none;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+#contenu{
+float:left;
+width:80%;
+overflow:hidden; 
+padding:20px;
+}
+
+/* formulaure */
+form{
+margin:15px 10px 0 10px;
+}
+label{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+font-weight:bold;
+}
+
+input {
+	width: 100%; height: 30px; padding: 0px 20px 0px 20px; margin: 0 0 20px 0; 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+	font-family: sans-serif; font-size: 14px; color: #333;
+	display:block; 
+}
+input[type="text"]:focus{
+  border: solid 1px #999;
+  box-shadow: 0 0 5px 1px #999;
+}
+
+textarea {
+	width: 400px; height: 170px; padding: 12px 20px 0px 20px; margin: 0 0 20px 0; 
+	background: #5E768D;
+	background: -moz-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D)); /* webkit */
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+	font-family: sans-serif; font-size: 16px; color: #f2f2f2; text-transform: uppercase; text-shadow: 0px -1px 0px #334f71; 
+}
+	
+input[type=submit] {
+color:#FFFFFF;
+font-size:80%;
+	width: 150px; height: 30px; float: right; padding: 5px 15px; 
+	-moz-box-shadow: 0px 0px 5px #999;-webkit-box-shadow: 0px 0px 5px #999;
+	border: 1px solid #556f8c;
+	background: -moz-linear-gradient(top, #0063A6 0%, #0066CC 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0063A6), color-stop(100%,#0066CC)); /* webkit */
+	cursor: pointer;
+}
+
+table#miyazaki caption {
+font-size: 2rem; color: #444;
+margin: 1rem;
+background-image: url(miyazaki.png), url(miyazaki2.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center left, center right;
+}
+table#miyazaki {
+border-collapse: collapse;
+font-family: Agenda-Light; font-weight: 100;
+background: #333; color: #fff;
+text-rendering: optimizeLegibility;
+border-radius: 5px;
+}
+table#miyazaki thead th { font-weight: 600; }
+table#miyazaki thead th, table#miyazaki tbody td {
+padding: .8rem; font-size: 1.4rem;
+}
+table#miyazaki tbody td {
+padding: .8rem; font-size: 1.4rem;
+color: #444; background: #eee;
+}
+table#miyazaki tbody tr:not(:last-child) {
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+}
